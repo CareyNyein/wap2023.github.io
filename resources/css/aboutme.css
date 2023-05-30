@@ -1,0 +1,36 @@
+body {
+    background-color: #555;
+
+}
+
+a {
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+a:hover {
+    color: lightgreen;
+}
+
+a:visited{
+    color: pink;
+}
+
+p, li, span {
+    color: white;
+}
+
+.title {
+    color: lightskyblue;
+    font: italic 30px "Trebuchet MS";
+    text-align: center;
+}
+
+ul li.courses {
+    background-color: brown;
+}
+
+.hobby {
+    color: yellow;
+}

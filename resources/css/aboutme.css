@@ -7,18 +7,30 @@ a {
     color: red;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
+    text-decoration: none;
 }
 
 a:hover {
     color: lightgreen;
+    text-decoration: underline;
 }
 
-a:visited{
+a:visited {
     color: pink;
 }
 
-p, li, span {
+p,
+li,
+span {
     color: white;
+}
+
+p::first-letter {
+    font-size: 30px;
+}
+
+p#desc {
+    font-style: italic;
 }
 
 .title {
@@ -31,6 +43,17 @@ ul li.courses {
     background-color: brown;
 }
 
+DT,
 .hobby {
     color: yellow;
+    font-weight: bold;
+}
+
+ol {
+    transform: rotate(180deg);
+}
+
+ol li {
+    margin-right: 50px;
+    transform: rotate(180deg);
 }

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css" integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous"/>
+    <title>Lab 3 Assignment</title>
+    <link href="../resources/css/lab3.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <img src="../resources/imgs/liverpool-logo.png" alt="logo" id="logo">
+        <p>Welcome, Carey</p>
+        <button class="btn">Log Out</button>
+    </header>
+    <hr>
+    <div>
+        <h4>Product List</h4>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Stock</th>
+                <th>Actions</th>
+            </tr>
+            <tr>
+                <td>NodeJS</td>
+                <td>9.99</td>
+                <td>8</td>
+                <td><img src="../resources/imgs/shopping-cart.png" class="cart"></td>
+            </tr>
+            <tr>
+                <td>React</td>
+                <td>19.99</td>
+                <td>5</td>
+                <td><img src="../resources/imgs/shopping-cart.png" class="cart"></td>
+            </tr>
+            <tr>
+                <td>Angular</td>
+                <td>29.99</td>
+                <td>13</td>
+                <td><img src="../resources/imgs/shopping-cart.png" class="cart"></td>
+            </tr>
+        </table>
+    </div>
+
+    <div>
+        <h4>Your Shopping Cart</h4>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Total</th>
+                <th>Quantity</th>
+            </tr>
+            <tr>
+                <td>NodeJS</td>
+                <td>9.99</td>
+                <td>9.99</td>
+                <td class="center">
+                    <button>-</button>
+                    <input type="text" class="txtbox">
+                    <button>+</button>
+                </td>
+            </tr>
+            <tr>
+                <td>Angular</td>
+                <td>29.99</td>
+                <td>130</td>
+                <td class="center">
+                    <button>-</button>
+                    <input type="text" class="txtbox">
+                    <button>+</button>
+                </td>
+            </tr>
+            <tr class="right">
+                <td colspan="4">Total: 300.98</td>
+            </tr>
+        </table>
+    </div>
+
+    <div>
+        <button class="btn">Place Order</button>
+    </div>
+
+</body>
+
+</html>

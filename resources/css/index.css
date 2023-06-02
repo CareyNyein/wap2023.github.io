@@ -1,0 +1,10 @@
+body {
+    display: flex;
+    flex-direction: row;
+}
+
+.right{
+    display: flex;
+    position: absolute;
+    right: 20px;
+}

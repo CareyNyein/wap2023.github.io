@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 4 Assignment</title>
+    <link href="./resources/css/lab4.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <sapn id="general-font" class="nav-style">Workshop Registration</span>
+            <select id="nav-select" class="nav-style" name="nav-action">
+                <option selected>More Action</option>
+                <option>Home</option>
+                <option>Lab 2</option>
+                <option>Lab 3</option>
+            </select>
+    </header>
+
+    <form action="#" method="get" id="main">
+        <div class="main">
+            <div id="content-left">
+                <p class="content-title">Register now while seet are available!</p>
+
+                <div class="inner-item">
+                    <label for="f-name">First Name <span class="important">*</span></label>
+                    <input type="text" id="f-name" required />
+                </div>
+
+                <div class="inner-item">
+                    <label for="l-name">Last Name <span class="important">*</span></label>
+                    <input type="text" id="l-name" required />
+                </div>
+
+                <div class="inner-item">
+                    <label for="company">Company Institution <span class="important">*</span></label>
+                    <input type="text" id="company" required />
+                </div>
+
+                <div class="inner-item">
+                    <label for="address">Address <span class="important">*</span></label>
+                    <textarea rows="5" cols="33" id="address"></textarea>
+                </div>
+
+                <div class="inner-item">
+                    <label for="city">City</label>
+                    <input type="text" id="city" />
+                </div>
+
+                <div class="inner-item">
+                    <label for="state">State / Province / Region</label>
+                    <select name="state" class="selection">
+                        <option selected>-Select-</option>
+                        <option>Iowa</option>
+                        <option>Illinois</option>
+                        <option>Vermont</option>
+                    </select>
+                </div>
+
+                <div class="inner-item">
+                    <label for="country">Country</label>
+                    <select name="country" class="selection">
+                        <option selected>-Select-</option>
+                        <option>United State of America</option>
+                        <option>United Kingdom</option>
+                        <option>Myanmar</option>
+                    </select>
+                </div>
+
+                <div class="inner-item">
+                    <label for="email">Email <span class="important">*</span></label>
+                    <input type="text" id="email" required />
+                </div>
+
+                <div class="inner-item">
+                    <label for="phone">Phone Number <span class="important">*</span></label>
+                    <input type="text" id="phone" required />
+                </div>
+            </div>
+
+            <div id="content-right">
+                <p class="content-title">Lunch</p>
+
+                <div class="inner-item">
+                    <label for="meal">Meal Preference</label>
+                    <select name="meal" class="selection">
+                        <option selected>Vegetarian</option>
+                        <option>Low Calories</option>
+                        <option>No Sodium</option>
+                    </select>
+                </div>
+
+                <p class="content-title">Payment Details</p>
+
+                <div class="inner-item">
+                    <label for="payment">Payment Mode</label>
+                    <div class="vert">
+                        <span><input type="checkbox" name="cash" /> Cash</span>
+                        <span><input type="checkbox" name="cheque" /> Cheque</span>
+                        <span><input type="checkbox" name="demand" /> Demand Draft</span>
+                    </div>
+                </div>
+
+                <span class="box"></span>
+                <!-- <div id="payment-section"> -->
+                <div class="inner-item">
+                    <label for="cheque">DD/Cheque No.</label>
+                    <input type="text" id="cheque" />
+                </div>
+
+                <div class="inner-item">
+                    <label for="bank">Draw On (Bank Name)</label>
+                    <input type="text" id="bank" />
+                </div>
+
+                <div class="inner-item">
+                    <label for="payable">Payable at</label>
+                    <input type="text" id="payable" />
+                </div>
+                <!-- </div> -->
+            </div>
+        </div>
+
+        <div id="footer">
+            <input type="submit"  class="form-btn"/>
+            <input type="reset" class="form-btn" />
+        </div>
+    </form>
+</body>
+
+</html>

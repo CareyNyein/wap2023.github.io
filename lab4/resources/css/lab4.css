@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+}
+
+header {
+    border-bottom: 1px solid;
+    padding: 20px;
+    background-color: cadetblue;
+    display: flex;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"], .selection {
+    width: 40%
+}
+
+#footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+}
+
+#main{
+    display: flex;
+}
+
+#general-font {
+    font-weight: bolder;
+    font-size: 2vw;
+}
+
+#payment-section {
+    margin-top: 25px;
+}
+
+#nav-select {
+    height: 100%;
+    border: none;
+    background-color: transparent;
+    margin-left: 5vw;
+}
+
+.main {
+    display: flex;
+    padding: 5px 10px;
+}
+
+.nav-style {
+    margin: 0 5px;
+}
+
+.content-title{
+    text-decoration: underline;
+}
+
+.inner-item {
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 0 8px 0;
+}
+
+.important {
+    color: red;
+}
+
+.vert {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.box {
+    height: 20px;
+}
+
+#address {
+    width: 40%;
+}
+
+.form-btn {
+    padding: 5px;
+    margin: 0 5px 0 5px;
+    color: white;
+    background-color: darkcyan;
+    border-radius: 5px;
+}
+
+#content-left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 2px 65px 5px 2px;
+}
+
+#content-right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 2px 65px 5px 2px;
+}
+

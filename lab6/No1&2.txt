@@ -1,0 +1,5 @@
+Exerciese 1:
+ANS: undefined 30, 10 30
+
+Exerciese 2:
+ANS 3 undefined, 10 undefined, 10

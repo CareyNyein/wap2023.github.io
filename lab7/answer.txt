@@ -1,0 +1,4 @@
+No1. 
+Because user.loginOk and user.loginFail lose their binding to user object 
+when they were passed as arguments to the askPassword function.
+The possible solutions can be found in Ex1.js
